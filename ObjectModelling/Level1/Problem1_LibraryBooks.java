@@ -1,0 +1,58 @@
+
+// Problem 1: Library and Books (Aggregation)
+import java.util.*;
+
+class Book {
+    private String title;
+    private String author;
+
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
+    public String getTitle() { return title; }
+    public String getAuthor() { return author; }
+
+    public void displayBook() {
+        System.out.println("Book: " + title + " by " + author);
+    }
+}
+
+class Library {
+    private String name;
+    private List<Book> books;
+
+    public Library(String name) {
+        this.name = name;
+        this.books = new ArrayList<>();
+    }
+
+    public void addBook(Book book) {
+        books.add(book);
+    }
+
+    public void showLibraryBooks() {
+        System.out.println("Library: " + name);
+        for (Book b : books) {
+            b.displayBook();
+        }
+    }
+}
+
+public class Problem1_LibraryBooks {
+    public static void main(String[] args) {
+        Book b1 = new Book("1984", "George Orwell");
+        Book b2 = new Book("The Alchemist", "Paulo Coelho");
+
+        Library lib1 = new Library("City Library");
+        Library lib2 = new Library("University Library");
+
+        lib1.addBook(b1);
+        lib2.addBook(b1);
+        lib2.addBook(b2);
+
+        lib1.showLibraryBooks();
+        lib2.showLibraryBooks();
+    }
+}
