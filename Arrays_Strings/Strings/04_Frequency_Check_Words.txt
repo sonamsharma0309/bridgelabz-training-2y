@@ -1,2 +1,0 @@
-Problem: Frequency Check of Words
-Write a program to find the frequency of each word in a given sentence.

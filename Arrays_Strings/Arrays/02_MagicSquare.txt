@@ -1,1 +1,0 @@
-Check whether a given matrix is a magic square.
