@@ -1,3 +1,5 @@
+package Arrays_Strings.Stack;
+
 import java.util.*;
 
 class Solution {
@@ -12,7 +14,7 @@ class Solution {
             else {
                 if(stack.isEmpty()) return false;
 
-                char top=stack.pop();
+                char top = stack.pop();
 
                 if(ch == ')' && top != '(') return false;
                 if(ch == '}' && top != '{') return false;
