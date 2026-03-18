@@ -1,3 +1,4 @@
+package Arrays_Strings.Stack;
 public class Main {
 
     int stack[] = new int[5];

@@ -1,3 +1,4 @@
+package Arrays_Strings.Stack;
 class Stack<T> {
 
     class Node {
