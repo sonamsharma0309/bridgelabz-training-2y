@@ -1,6 +1,6 @@
 package Arrays_Strings.Stack;
-
-import java.util.*;
+import java.util.Stack;
+import java.util.Arrays; 
 
 class NextGreaterElements {
 

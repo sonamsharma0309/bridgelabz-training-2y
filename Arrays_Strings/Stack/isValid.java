@@ -1,6 +1,6 @@
 package Arrays_Strings.Stack;
 
-import java.util.*;
+import java.util.Stack;
 
 class Solution {
     public boolean isValid(String s) {

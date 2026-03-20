@@ -1,5 +1,4 @@
 package Arrays_Strings.Stack;
-
 import java.util.Stack;
 
 class ReverseStack {
