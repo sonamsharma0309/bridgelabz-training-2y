@@ -1,6 +1,6 @@
 package Arrays_Strings.Stack;
 
-import java.util.*;
+import java.util.Stack;
 
 class InfixToPostfix {
     static int precedence(char ch) {
